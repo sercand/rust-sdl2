@@ -18,7 +18,6 @@ path       = "src/sdl2/lib.rs"
 [dependencies]
 bitflags = "^1"
 libc = "^0.2"
-rand = "^0.6"
 lazy_static = "^1"
 
 [dependencies.num]
@@ -62,9 +61,6 @@ name = "audio-squarewave"
 
 [[example]]
 name = "audio-wav"
-
-[[example]]
-name = "audio-whitenoise"
 
 [[example]]
 required-features = ["image"]
